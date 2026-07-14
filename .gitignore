@@ -1,0 +1,69 @@
+# Logs
+logs/
+*.log
+*.log.gz
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+docs
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+.factorypath
+.springBeans
+.sts4-cache
+application-local.yml
+.omx/
+
+# 自定义排除
+external/
+test/
+.codegraph/
+.cursor/
+Test*.java
+*Test.java
+*Test*.java
+*.bak
+*.args
+AGENTS.md
+CLAUDE.md
+
+# 自定义排除
+external/
+test/
+.codegraph/
+.cursor/
+Test*.java
+*Test.java
+*Test*.java
+*.bak
+*.args
+AGENTS.md
+CLAUDE.md
+/node_modules/
